@@ -1,0 +1,111 @@
+.post {
+    margin-left: 10px;
+    background-color: #0074d3eb;
+    height: auto;
+    width: 65%;
+    border-radius: 25px;
+}
+
+.post .active_container {
+    height: 110px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.post .active_container .profile_container {
+    margin-inline-end: 25px;
+}
+
+.post .active_container .profile_container h4 {
+    margin-top: 5px;
+    color: white;
+}
+
+
+.post .post_box {
+    margin-top: 2%;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.post .post_box .profile_container {
+    display: flex;
+    position: relative;
+    left: 6%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.post .post_box .profile_container img {
+    height: 44px;
+    width: 45px;
+}
+
+.post .post_box input {
+    display: flex;
+    position: relative;
+    left: 8%;
+    padding: 10px;
+    margin-top: 15px;
+    width: 646px;
+    border-radius: 30px;
+    border: none;
+    height: 35px;
+    background-color: rgb(5, 84, 201);
+}
+
+.post .post_box input::placeholder {
+    color: rgb(227, 227, 227);
+    padding: 20px;
+    font-size: small;
+
+}
+
+.post .others_post {
+
+    display: block;
+    height: 470px;
+    width: 667px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 13%;
+
+
+}
+
+.post .others_post .people_post {
+    display: flex;
+    background-color: blueviolet;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.post .others_post .contenten_container {
+    display: block;
+    height: 350px;
+    width: 80%;
+    background-color: aqua;
+    position: relative;
+    left: 10%;
+
+
+}
+
+.post .others_post .reaction {
+    background-color: black;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}

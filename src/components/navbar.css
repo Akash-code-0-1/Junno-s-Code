@@ -1,0 +1,487 @@
+.navbar {
+    background-color: #092635;
+    height: 100%;
+    width: 8%;
+    border-radius: 25px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile_container {
+    background-color: white;
+    height: 80.5px;
+    width: 80.5px;
+    border-radius: 500px;
+    margin-top: 25px;
+    position: relative;
+    left: 17%;
+}
+
+.profile_container img {
+    margin-top: 3.2px;
+    height: 74px;
+    width: 74px;
+    border-radius: 500px;
+
+}
+
+.navbar .icon_container {
+    width: 100%;
+}
+
+.navbar .icon_container:hover {
+    background-color: #011722;
+    transition: 0.5s;
+}
+
+/* .navbar .icon_container.active{
+    background-color: #011722;
+} */
+
+.navbar .Icons {
+    padding: 10px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+/* notifications section  */
+
+.navbar .notifications_container {
+    display: block;
+    position: absolute;
+    background-color: #061b25;
+    top: 0.7%;
+    left: 9%;
+    height: 98.2%;
+    width: 22.7%;
+    z-index: 1;
+    border-radius: 20px;
+    opacity: 1;
+    transition: left 0.8s ease;
+}
+
+.navbar .notifications_container .updates_header {
+    display: block;
+    height: 12%;
+    width: 100%;
+}
+
+.navbar .notifications_container .updates_header .heading {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.navbar .notifications_container .updates_header .heading h3 {
+    margin-left: 10px;
+}
+
+.navbar .notifications_container .updates_header .heading .icn {
+    position: relative;
+    left: 50%;
+    top: 40%;
+    cursor: pointer;
+}
+
+.navbar .notifications_container .updates_header .buttons {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.navbar .notifications_container .updates_header .buttons button {
+    position: relative;
+    top: 25%;
+    border-radius: 10px;
+    border: none;
+    margin-inline-end: 17px;
+    height: 25px;
+    background-color: #555555;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.navbar .notifications_container .updates_header .buttons button:hover {
+    background-color: #011722;
+    transition: 0.3s;
+}
+
+.navbar .notifications_container .updates_container {
+    display: block;
+    position: relative;
+    height: 87%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.navbar .notifications_container .updates_container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.navbar .notifications_container .updates_container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 30px;
+
+}
+
+.navbar .notifications_container .updates_container::-webkit-scrollbar-thumb {
+    background: #B6BBC4;
+    border-radius: 10px;
+}
+
+.navbar .notifications_container .updates_container::-webkit-scrollbar-thumb:hover {
+    background: #ff004c;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+
+
+
+.navbar .notifications_container .updates_container:hover {
+    overflow-y: scroll;
+}
+
+.navbar .notifications_container .updates_container .updates {
+    display: flex;
+    position: relative;
+    width: 96%;
+    height: 10%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    left: 2%;
+    cursor: pointer;
+}
+
+.navbar .notifications_container .updates_container .updates:hover {
+    background-color: #010c11;
+}
+
+.navbar .notifications_container .updates_container .updates img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 800px;
+    margin-top: 5px;
+    margin-left: 1px;
+
+}
+
+.navbar .notifications_container .updates_container .updates .context {
+    height: 83%;
+    width: 100%;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.navbar .notifications_container .updates_container .updates .context h5 {
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+
+}
+
+
+.navbar .notifications_container .updates_container .updates .time {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: #c7c5c6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.community_page .communities_post .cmn_hot_topics .updates_container {
+    display: block;
+    position: relative;
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.community_page .communities_post .cmn_hot_topics .updates_container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.community_page .communities_post .cmn_hot_topics .updates_container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 30px;
+
+}
+
+.community_page .communities_post .cmn_hot_topics .updates_container::-webkit-scrollbar-thumb {
+    background: #B6BBC4;
+    border-radius: 10px;
+}
+
+.community_page .communities_post .cmn_hot_topics .updates_container::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+.community_page .communities_post .cmn_hot_topics .updates_container .updates {
+    display: flex;
+    position: relative;
+    width: 96%;
+    height: 10%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    left: 2%;
+}
+.community_page .communities_post .cmn_hot_topics .updates_container .updates:hover{
+    background-color: #010c11;
+}
+
+.community_page .communities_post .cmn_hot_topics .updates_container .updates img{
+    height: 50px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 800px;
+    margin-top: 5px;
+    margin-left: 1px;
+
+}
+.community_page .communities_post .cmn_hot_topics .updates_container .updates .context{
+    height: 83%;
+    width: 100%;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+}
+.community_page .communities_post .cmn_hot_topics .updates_container .updates .context h5{
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+
+}
+
+
+.community_page .communities_post .cmn_hot_topics .updates_container .updates .time{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: #c7c5c5;
+}
+
+*/
+
+
+
+/* notifications section end  */
+.navbar .search_container {
+    display: block;
+    position: absolute;
+    background-color: #061b25;
+    top: 0.7%;
+    left: 9%;
+    height: 98.2%;
+    width: 22.7%;
+    z-index: 1;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+
+.navbar .search_container .search_box {
+    margin-left: 2.5%;
+    display: block;
+    height: 60px;
+    width: 95%;
+    background-color: #011d2c;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.navbar .search_container .search_box input {
+    height: 95%;
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    background-color: #011d2c;
+    color: white;
+}
+
+.navbar .search_container .search_box input::placeholder {
+    position: relative;
+    left: 20px;
+}
+
+.navbar .search_container .search_box .icon {
+    position: relative;
+    color: white;
+    width: 30px;
+    height: 30px;
+    top: 20%;
+    left: 20px;
+}
+
+.navbar .search_container .search_history {
+    position: relative;
+    display: block;
+    height: 89%;
+    width: 100%;
+    background-color: #011d2c;
+    top: 10px;
+    border-radius: 25px;
+}
+
+.navbar .search_container .search_history h4 {
+    position: relative;
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+
+.navbar .search_container .search_history hr {
+    position: relative;
+    top: 0%;
+    width: 100%;
+}
+
+.navbar .search_container .search_history .searched_by {
+    display: flex;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar .search_container .search_history .searched_by:hover {
+    background-color: #817b7b59;
+    border-radius: 10px;
+}
+
+.navbar .search_container .search_history .searched_by h3 {
+    margin-left: 10px;
+}
+
+.navbar .search_container .search_history .searched_by .Icon_close {
+    position: relative;
+    left: 50%;
+    height: 15px;
+    cursor: pointer;
+}
+
+.navbar .search_container .search_history .searched_by .Icon_close:hover {
+    color: #ff004c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .Iconmore {
+    padding: 10px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    margin-top: 130px;
+    display: block;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .options_container {
+    top: 67%;
+    position: relative;
+    bottom: 130px;
+    position: absolute;
+    height: 130px;
+    width: 120px;
+    background-color: #011722;
+    border-radius: 10px;
+    color: white;
+    display: block;
+
+}
+
+
+
+.navbar .Iconlogout {
+    padding: 10px;
+    color: white;
+    height: 25px;
+    width: 25px;
+    /* margin-top: 20px; */
+    display: block;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.navbar .options_container .options {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
+
+.navbar .options_container .options:hover {
+    background-color: #817b7b2c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar .options_container .options h6 {
+    margin-left: 5px;
+    font-size: 14px;
+}
